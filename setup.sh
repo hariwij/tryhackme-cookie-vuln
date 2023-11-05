@@ -6,4 +6,4 @@ sudo systemctl enable vuln.service
 
 sudo systemctl start vuln.service
 
-sudo systemctl status vuln.service
+# sudo systemctl status vuln.service
