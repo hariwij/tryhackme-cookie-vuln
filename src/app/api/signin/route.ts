@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
                         path: "/",
                         httpOnly: true,
                         sameSite: true,
-                        secure: true,
+                        secure: false,
                         maxAge: 3600,
                     }) +
                     "," +
@@ -58,7 +58,7 @@ export async function POST(request: NextRequest) {
                         path: "/",
                         httpOnly: true,
                         sameSite: true,
-                        secure: true,
+                        secure: false,
                         maxAge: 3600,
                     }),
             },
