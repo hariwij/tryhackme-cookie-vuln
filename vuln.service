@@ -1,0 +1,13 @@
+[Unit]
+Description=TryHackMe CWE-784
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3001
+Type=simple
+User=ubuntu
+ExecStart=/usr/tryhackme-cookie-vuln/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
