@@ -100,8 +100,3 @@ To exploit the vulnerbilty, You can follow the following steps.
     2. AccountType
 
 5. Now change the `AccountType` to `paid` and click on the `Load Content` button. Now you will see a popup `You are a paid user. You have access to premium content`.
-
-
-Sir, I found this on the website that i have selected to do bugbounty on. 
-They are saving the user account type in a cookie. Still i could not gain a advantage by playing with the cookie,
-But I have created a replica of the website and I have exploited the vulnerbilty. Is this ok for the tryhackme room that we need to submit for the assignment?
